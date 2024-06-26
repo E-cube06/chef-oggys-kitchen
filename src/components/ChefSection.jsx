@@ -4,39 +4,39 @@ const ChefSection = () => {
     const chiefs = [ 
         {
             name:'Chef Oggy',
-            img:'/vite-project/public/images/chiefs/Chef Oggy.jpeg',
+            img:'chiefs/Chef Oggy.jpeg',
             recipesCount: '5',
             cuisine: "Benin"
         },
         
         {
             name:'Chef Danny',
-            img:'/vite-project/public/images/chiefs/Chef Danny.jpeg',
+            img:'chiefs/Chef Danny.jpeg',
             recipesCount: '10',
             cuisine: "Hausa"
         },
        
         {
             name:'Chef Joy',
-            img:'/vite-project/public/images/chiefs/Chef Joy.jpeg',
+            img:'chiefs/Chef Joy.jpeg',
             recipesCount: '13',
             cuisine: "English"
         },
         {
             name:'Chef Chi',
-            img:'/vite-project/public/images/chiefs/Chef Chi.jpeg',
+            img:'chiefs/Chef Chi.jpeg',
             recipesCount: '08',
             cuisine: "Ibo"
         },
         {
             name:'Chef Nelly',
-            img:'/vite-project/public/images/chiefs/Chef Nelly.jpeg',
+            img:'chiefs/Chef Nelly.jpeg',
             recipesCount: '04',
             cuisine: "Yoruba"
         },
         {
             name:'Chef Sandy',
-            img:'/vite-project/public/images/chiefs/Chef Sandy.jpeg',
+            img:'chiefs/Chef Sandy.jpeg',
             recipesCount: '04',
             cuisine: "Akwa Ibom"
         },
