@@ -26,7 +26,7 @@ const Recipes = () => {
     {
         title: "Plantain and Sauce",
         image: "/images/Plantain-Sauce.jpeg",
-        authorImg: "/images/chiefs/Chef Nelly.jpeg",
+        authorImg: "/images/chiefs/Chef-Nelly.jpeg",
     },
     {
         title: "Jollof Rice and Chicken",
