@@ -4,15 +4,15 @@ import CustomImage from './CustomImage'
 const HeroSection = () => {
 
     const images = [
-        "All you can eat.jpeg",
-        "Amala&Ewedu.jpeg",
-        "Jollof Rice, plantain and sauce.jpeg",
-        "munches.jpeg",
-        "Ofada rice.jpeg",
-        "Pounded yam and vegetables.jpeg",
-        "Vegetable porridge.jpeg",
-        "Plantain&Sauce.jpeg",
-        "Appetizers.jpeg",
+        "./images/All-you-can-eat.jpeg",
+        "./images/Amala-Ewedu.jpeg",
+        "./images/Jollof-Rice-plantain-and-sauce.jpeg",
+        "./images/munches.jpeg",
+        "./images/Ofada-rice.jpeg",
+        "./images/Pounded-yam-and-vegetables.jpeg",
+        "./images/Vegetable-porridge.jpeg",
+        "./images/Plantain-Sauce.jpeg",
+        "./images/Appetizers.jpeg",
         
     ]
   return (
@@ -24,7 +24,7 @@ const HeroSection = () => {
         </div>
         <div className="col gallery">
             {images.map((src, index) =>(
-                <CustomImage key={index} imgSrc={`${import.meta.env.BASE_URL}images/${src}`} pt={"90%"}/>
+                <CustomImage key={index} imgSrc={src} pt={"90%"}/>
             ))}
             
            

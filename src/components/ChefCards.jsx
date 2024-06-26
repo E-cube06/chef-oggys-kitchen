@@ -5,7 +5,7 @@ import { faFacebook, faTwitter, faInstagram } from '@fortawesome/free-brands-svg
 export const ChefCards = ({chief}) => {
   return (
     <div className='chief-card'>
-        <img src={`${import.meta.env.BASE_URL}images/${chief.img}`} alt="" />
+        <img src={chief.img} alt="" />
         <div className="chief-card-info">
         <h3 className="chief-card-name">{chief.name}</h3>
         <p className="chief-recipe-count">Recipes: <b>{chief.recipesCount}</b></p>

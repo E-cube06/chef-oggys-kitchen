@@ -12,7 +12,7 @@ const ImproveSkill = () => {
   return (
     <div className='section improve-skills'>
         <div className="col img">
-          <img src={`${import.meta.env.BASE_URL}images/Eba&Egusi.jpeg`} alt="" />
+          <img src='./images/Eba-Egusi.jpeg' alt="" />
            
           </div>
         <div className="col typography">
