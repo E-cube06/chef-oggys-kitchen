@@ -12,7 +12,7 @@ const ImproveSkill = () => {
   return (
     <div className='section improve-skills'>
         <div className="col img">
-          <img src="/images/Eba&Egusi.jpeg" alt="" />
+          <img src="/vite-project/public/images/Eba&Egusi.jpeg" alt="" />
            
           </div>
         <div className="col typography">

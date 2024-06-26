@@ -4,15 +4,15 @@ import CustomImage from './CustomImage'
 const HeroSection = () => {
 
     const images = [
-        "./images/All you can eat.jpeg",
-        "./images/Amala&Ewedu.jpeg",
-        "./images/Jollof Rice, plantain and sauce.jpeg",
-        "./images/munches.jpeg",
-        "./images/Ofada rice.jpeg",
-        "./images/Pounded yam and vegetables.jpeg",
-        "./images/Vegetable porridge.jpeg",
-        "./images/Plantain&Sauce.jpeg",
-        "./images/Appetizers.jpeg",
+        "/vite-project/public/images/All you can eat.jpeg",
+        "/vite-project/public/images/Amala&Ewedu.jpeg",
+        "/vite-project/public/images/Jollof Rice, plantain and sauce.jpeg",
+        "/vite-project/public/images/munches.jpeg",
+        "/vite-project/public/images/Ofada rice.jpeg",
+        "/vite-project/public/images/Pounded yam and vegetables.jpeg",
+        "/vite-project/public/images/Vegetable porridge.jpeg",
+        "/vite-project/public/images/Plantain&Sauce.jpeg",
+        "/vite-project/public/images/Appetizers.jpeg",
         
     ]
   return (
